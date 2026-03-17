@@ -1,0 +1,94 @@
+Package Report
+
+-----------------------------------------------------------------------------
+Document:
+Name: Merkle Value_Carousel_Bitcoin cycles.ai
+Color Mode: RGB color
+Color Profile: sRGB IEC61966-2.1
+Ruler Units: pixels
+Artboard Dimensions: 1080 px x 1350 px
+Show Images in Outline Mode: OFF
+Highlight Substituted Fonts: OFF
+Highlight Substituted Glyphs: OFF
+Preserve Text Editability
+Simulate Colored Paper: OFF
+
+-----------------------------------------------------------------------------
+Spot Color Objects:
+
+-----------------------------------------------------------------------------
+Missing Fonts:NONE
+
+-----------------------------------------------------------------------------
+Protected Fonts that were not packaged:NONE
+
+-----------------------------------------------------------------------------
+Fonts:
+Chapaza Italic (TrueType)
+Outfit Regular (TrueType)
+Outfit Light (TrueType)
+Outfit Medium (TrueType)
+
+-----------------------------------------------------------------------------
+Embedded Fonts:
+NONE
+
+-----------------------------------------------------------------------------
+Missing Links:
+NONE
+
+-----------------------------------------------------------------------------
+Linked Images:
+
+C:\Users\YELLOWSEED\OneDrive\Desktop\Sharvari\Work\Merkle Value\img 2.png
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 38632K, 2720 by 3636 pixels
+Dimensions: 1228.884 by 1642.729 points 
+Resolution: 159.364 by 159.364 pixels per inch
+
+
+C:\Users\YELLOWSEED\OneDrive\Desktop\Sharvari\Work\Merkle Value\Jan\Jan\Global Crypto Market Broke $4 Trillion in 2025 Carousel\Images\bg.png
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 4271K, 1080 by 1350 pixels
+Dimensions: 1080 by 1350 points 
+Resolution: 72 by 72 pixels per inch
+
+
+C:\Users\YELLOWSEED\OneDrive\Desktop\Sharvari\Work\Merkle Value\Jan\Jan\Global Crypto Market Broke $4 Trillion in 2025 Carousel\Images\Bg 1.png
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 4271K, 1080 by 1350 pixels
+Dimensions: 1080 by 1350 points 
+Resolution: 72 by 72 pixels per inch
+
+
+C:\Users\YELLOWSEED\OneDrive\Desktop\Sharvari\Work\Merkle Value\Jan\Jan\Global Crypto Market Broke $4 Trillion in 2025 Carousel\Images\bg.png
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 4271K, 1080 by 1350 pixels
+Dimensions: 1080 by 1350 points 
+Resolution: 72 by 72 pixels per inch
+
+
+C:\Users\YELLOWSEED\OneDrive\Desktop\Sharvari\Work\Merkle Value\Jan\Jan\Global Crypto Market Broke $4 Trillion in 2025 Carousel\Images\bg.png
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 4271K, 1080 by 1350 pixels
+Dimensions: 1080 by 1350 points 
+Resolution: 72 by 72 pixels per inch
+
+
+C:\Users\YELLOWSEED\OneDrive\Desktop\Sharvari\Work\Merkle Value\Jan\Jan\Global Crypto Market Broke $4 Trillion in 2025 Carousel\Images\Bg 1.png
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 4271K, 1080 by 1350 pixels
+Dimensions: 1080 by 1350 points 
+Resolution: 72 by 72 pixels per inch

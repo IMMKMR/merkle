@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-serif: "Baskervville", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+  --color-merkle-purple: #3C0166;
+  --color-merkle-purple-light: #5B0299;
+  --color-merkle-purple-dark: #24003D;
+  
+  --color-off-white: #FBFBFA;
+  --color-light-grey: #F2F2F2;
+  --color-slate-gray: #71717A;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-off-white text-slate-800 antialiased font-sans m-0 p-0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-sans font-bold text-merkle-purple tracking-tight;
+  }
+
+  p {
+    @apply font-sans text-slate-700 leading-relaxed;
+  }
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('/fonts/Outfit-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Baskervville';
+  src: url('/fonts/Baskervville-VariableFont_wght.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Baskervville';
+  src: url('/fonts/Baskervville-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
