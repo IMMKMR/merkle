@@ -9,7 +9,7 @@ export const InsightsHeroSection = () => {
         <section className="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden bg-[#0A0410] pt-20">
             <motion.div style={{ y, opacity }} className="absolute inset-0 w-full h-full">
                  <img 
-                    src="/images/assets/insights_bg.png" 
+                    src="images/assets/insights_bg.png" 
                     alt="Merkle Value Insights" 
                     className="w-full h-full object-cover object-center opacity-40 mix-blend-screen"
                  />

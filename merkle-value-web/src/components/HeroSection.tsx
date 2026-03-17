@@ -11,7 +11,7 @@ export const HeroSection = () => {
       {/* Generated Premium Image Background */}
       <div className="absolute inset-0 w-full h-full">
          <img 
-            src="/images/assets/hero_bg_abstract.png" 
+            src="images/assets/hero_bg_abstract.png" 
             alt="Abstract Background" 
             className="w-full h-full object-cover object-center opacity-80 mix-blend-multiply"
          />
@@ -80,7 +80,7 @@ export const HeroSection = () => {
                     transition={{ repeat: Infinity, duration: 8, ease: "easeInOut" }}
                 >
                     <img 
-                        src="/images/assets/isometric_node.png" 
+                        src="images/assets/isometric_node.png" 
                         alt="Digital Scarcity" 
                         className="w-full h-auto object-contain drop-shadow-2xl mix-blend-multiply"
                     />

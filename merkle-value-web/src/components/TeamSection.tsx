@@ -4,21 +4,21 @@ const team = [
     {
         name: "Bipin Chhaganbhai Patel",
         role: "Chief Executive Officer",
-        image: "/images/team/bipin-patel.jpg",
+        image: "images/team/bipin-patel.jpg",
         bio: "A seasoned risk and market infrastructure professional with over three decades of experience across global financial markets. He holds a Master's degree in Theoretical Physics from the University of Pennsylvania, and has built his career at the core of the global financial system, holding senior leadership and risk roles across exchanges, central clearing houses, and global investment banks, including Hong Kong Exchanges and Clearing (HKEX).",
         delay: 0.1
     },
     {
         name: "Amy Shuai",
         role: "Group Chief Financial Officer",
-        image: "/images/team/amy-shuai.png",
+        image: "images/team/amy-shuai.png",
         bio: "A Chartered Accountant with over twenty-five years' experience across global financial markets, digital assets, and high-growth ventures. She holds a First Class MPhys from the University of Oxford, is a Fellow of the ICAEW and earned the Wilmott Certificate in Quantitative Finance with distinction. Her expertise spans valuation and model governance at leading investment banks.",
         delay: 0.2
     },
     {
         name: "Ramandeep Singh",
         role: "Independent Investment Advisor",
-        image: "/images/team/ramandeep-singh.jpg",
+        image: "images/team/ramandeep-singh.jpg",
         bio: "Over twenty years of experience across global derivatives markets, quantitative trading, and automated options strategies. He holds an MBA in Finance from McGill University and has completed Level II of the CFA Program. He began his career in Tokyo as a proprietary trader specialising in index options market making and volatility trading.",
         delay: 0.3
     }

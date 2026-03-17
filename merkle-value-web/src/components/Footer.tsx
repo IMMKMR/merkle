@@ -12,7 +12,7 @@ export const Footer = () => {
                     <div className="md:col-span-5">
                         <Link to="/" className="inline-block mb-8">
                             <img 
-                                src="/images/assets/logo_purple.svg" 
+                                src="images/assets/logo_purple.svg" 
                                 alt="Merkle Value" 
                                 className="h-6 opacity-90 hover:opacity-100 transition-opacity"
                             />

@@ -10,7 +10,7 @@ export const AboutHeroSection = () => {
     <section className="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden bg-[#1A0B2E] pt-20">
       <motion.div style={{ y, opacity }} className="absolute inset-0 w-full h-full">
          <img 
-            src="/images/assets/about_us_bg.png" 
+            src="images/assets/about_us_bg.png" 
             alt="About Merkle Value" 
             className="w-full h-full object-cover object-center opacity-40 mix-blend-screen"
          />

@@ -93,7 +93,7 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
                 transition={{ duration: 0.8 }}
                 className="mb-4"
             >
-              <img src="/images/assets/logo_purple.svg" alt="Merkle Value" className="h-10" />
+              <img src="images/assets/logo_purple.svg" alt="Merkle Value" className="h-10" />
             </motion.div>
 
             {/* Mind-blowing 3D Candlestick Graphic */}

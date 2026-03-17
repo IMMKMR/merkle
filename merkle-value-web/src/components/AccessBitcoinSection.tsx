@@ -13,7 +13,7 @@ export const AccessBitcoinSection = () => {
                     transition={{ duration: 0.8 }}
                     className="w-full md:w-1/2 flex justify-center"
                 >
-                    <img src="/images/assets/isometric_node.png" alt="Bitcoin Confidence" className="w-full max-w-md object-contain drop-shadow-2xl mix-blend-multiply opacity-90" />
+                    <img src="images/assets/isometric_node.png" alt="Bitcoin Confidence" className="w-full max-w-md object-contain drop-shadow-2xl mix-blend-multiply opacity-90" />
                 </motion.div>
                 
                 <motion.div 
