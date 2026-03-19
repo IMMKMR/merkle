@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowDown } from 'lucide-react';
+import { ArrowDown, ArrowRight } from 'lucide-react';
 
 export const TheBitcoinShiftSection = () => {
     return (
@@ -37,7 +37,8 @@ export const TheBitcoinShiftSection = () => {
                             </div>
                             <div className="flex justify-center w-auto md:w-2/12 my-4 md:my-0">
                                 <div className="w-12 h-12 bg-white border-2 border-merkle-purple/20 rounded-full flex items-center justify-center shadow-md z-10 text-merkle-purple">
-                                    <ArrowDown className="w-5 h-5" />
+                                    <ArrowDown className="w-5 h-5 md:hidden" />
+                                    <ArrowRight className="w-5 h-5 hidden md:block" />
                                 </div>
                             </div>
                             <div className="w-full md:w-5/12 md:pl-12">
@@ -64,7 +65,8 @@ export const TheBitcoinShiftSection = () => {
                             </div>
                             <div className="flex justify-center w-auto md:w-2/12 my-4 md:my-0">
                                 <div className="w-12 h-12 bg-white border-2 border-merkle-purple/20 rounded-full flex items-center justify-center shadow-md z-10 text-merkle-purple">
-                                    <ArrowDown className="w-5 h-5" />
+                                    <ArrowDown className="w-5 h-5 md:hidden" />
+                                    <ArrowRight className="w-5 h-5 hidden md:block" />
                                 </div>
                             </div>
                             <div className="w-full md:w-5/12 md:pl-12">
@@ -91,7 +93,8 @@ export const TheBitcoinShiftSection = () => {
                             </div>
                             <div className="flex justify-center w-auto md:w-2/12 my-4 md:my-0">
                                 <div className="w-12 h-12 bg-white border-2 border-merkle-purple/20 rounded-full flex items-center justify-center shadow-md z-10 text-merkle-purple">
-                                    <ArrowDown className="w-5 h-5" />
+                                    <ArrowDown className="w-5 h-5 md:hidden" />
+                                    <ArrowRight className="w-5 h-5 hidden md:block" />
                                 </div>
                             </div>
                             <div className="w-full md:w-5/12 md:pl-12">

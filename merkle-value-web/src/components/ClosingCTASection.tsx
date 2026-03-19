@@ -11,9 +11,9 @@ const signals = [
 ];
 
 const principles = [
-    { a: "Patience", b: "Opportunity" },
-    { a: "Governance", b: "Innovation" },
-    { a: "Real Discipline", b: "Digital Scarcity" },
+    { foundation: "Patience",        yields: "Opportunity" },
+    { foundation: "Governance",       yields: "Innovation" },
+    { foundation: "Real Discipline",  yields: "Digital Scarcity" },
 ];
 
 export const ClosingCTASection = () => {
@@ -99,7 +99,7 @@ export const ClosingCTASection = () => {
                         <h3 className="text-4xl lg:text-5xl font-sans font-bold text-white leading-[1.1] tracking-tight mb-6">
                             The debate era is ending.{' '}
                             <span className="font-serif italic font-normal text-yellow-400">
-                                The ownership era is beginning.
+                                <br />The ownership era is beginning.
                             </span>
                         </h3>
                         <p className="font-serif text-lg text-white/50 leading-relaxed italic mb-12">
@@ -122,18 +122,34 @@ export const ClosingCTASection = () => {
                         transition={{ duration: 0.8, delay: 0.15 }}
                         className="flex flex-col gap-4"
                     >
+                        <p className="font-sans text-[10px] font-bold tracking-[0.25em] uppercase text-white/25 mb-6">Our Investment Philosophy</p>
                         {principles.map((p, idx) => (
-                            <div key={idx} className="flex items-center gap-6">
-                                <div className="flex-1 bg-white/5 border border-white/10 rounded-2xl px-8 py-5 text-right">
-                                    <span className="font-sans font-bold text-lg text-white">{p.a}</span>
+                            <motion.div
+                                key={idx}
+                                initial={{ opacity: 0, x: 20 }}
+                                whileInView={{ opacity: 1, x: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ duration: 0.5, delay: 0.2 + idx * 0.1 }}
+                                className="flex items-center gap-0 group"
+                            >
+                                {/* Foundation */}
+                                <div className="flex-1 bg-white/[0.04] border border-white/[0.08] rounded-xl px-6 py-4 flex flex-col gap-1 min-w-0">
+                                    <span className="font-sans text-[9px] font-bold tracking-[0.2em] uppercase text-white/25">Foundation</span>
+                                    <span className="font-sans font-bold text-base text-white truncate">{p.foundation}</span>
                                 </div>
-                                <div className="flex-shrink-0 w-10 h-10 rounded-full border border-yellow-400/40 bg-yellow-400/10 flex items-center justify-center">
-                                    <span className="text-yellow-400 font-bold text-sm">+</span>
+
+                                {/* Arrow bridge */}
+                                <div className="flex items-center flex-shrink-0 px-3">
+                                    <div className="w-8 h-px bg-gradient-to-r from-white/10 to-yellow-400/60" />
+                                    <ArrowRight className="w-3.5 h-3.5 text-yellow-400 opacity-70 -ml-0.5" />
                                 </div>
-                                <div className="flex-1 bg-white/5 border border-white/10 rounded-2xl px-8 py-5">
-                                    <span className="font-sans font-bold text-lg text-yellow-400">{p.b}</span>
+
+                                {/* Outcome */}
+                                <div className="flex-1 border border-yellow-400/20 bg-yellow-400/[0.05] rounded-xl px-6 py-4 flex flex-col gap-1 min-w-0">
+                                    <span className="font-sans text-[9px] font-bold tracking-[0.2em] uppercase text-yellow-400/50">Outcome</span>
+                                    <span className="font-sans font-bold text-base text-yellow-400 truncate">{p.yields}</span>
                                 </div>
-                            </div>
+                            </motion.div>
                         ))}
                     </motion.div>
 
