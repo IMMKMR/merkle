@@ -81,7 +81,7 @@ export const AboutWhyStructureMattersSection = () => {
 
                 <div className="max-w-3xl mx-auto text-center">
                     <p className="font-serif text-xl md:text-2xl text-slate-700 italic leading-relaxed">
-                        "Merkle Value Trust provides a compliant investment vehicle so Indian investors participate in Bitcoin through a governed, growth-focused strategy."
+                        "Merkle Value Trust provides a compliant investment vehicle so Indian investors participate in Bitcoin through a governed, <br />growth-focused strategy."
                     </p>
                 </div>
             </div>

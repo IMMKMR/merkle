@@ -16,13 +16,13 @@ export const TheBitcoinShiftSection = () => {
 
                 {/* Infographic Container */}
                 <div className="max-w-5xl mx-auto relative mt-20">
-                    
+
                     {/* Center Line for Desktop */}
                     <div className="hidden md:block absolute top-0 bottom-0 left-1/2 w-px bg-slate-200 -translate-x-1/2 z-0" />
 
                     <div className="space-y-12 md:space-y-0 relative z-10">
                         {/* Step 1 */}
-                        <motion.div 
+                        <motion.div
                             initial={{ opacity: 0, y: 30 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
@@ -50,7 +50,7 @@ export const TheBitcoinShiftSection = () => {
                         </motion.div>
 
                         {/* Step 2 */}
-                        <motion.div 
+                        <motion.div
                             initial={{ opacity: 0, y: 30 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
@@ -78,7 +78,7 @@ export const TheBitcoinShiftSection = () => {
                         </motion.div>
 
                         {/* Step 3 */}
-                        <motion.div 
+                        <motion.div
                             initial={{ opacity: 0, y: 30 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
@@ -110,7 +110,7 @@ export const TheBitcoinShiftSection = () => {
 
                 <div className="mt-24 text-center">
                     <p className="font-serif text-slate-600 text-2xl leading-relaxed italic max-w-3xl mx-auto">
-                        "Every era has its store of value. Gold defined the past. <span className="font-sans font-bold text-slate-800 not-italic">Bitcoin defines what comes next.</span>"
+                        "Every era has its store of value. Gold defined the past. <br /> <span className="font-sans font-bold text-slate-800 not-italic">Bitcoin defines what comes next.</span>"
                     </p>
                 </div>
 

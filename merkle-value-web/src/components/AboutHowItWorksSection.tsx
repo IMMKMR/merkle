@@ -12,7 +12,7 @@ export const AboutHowItWorksSection = () => {
     return (
         <section id="how-it-works" className="bg-white py-24 lg:py-32 relative border-t border-slate-200">
             <div className="container mx-auto px-6 lg:px-12 text-center">
-                <motion.div 
+                <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
@@ -30,7 +30,7 @@ export const AboutHowItWorksSection = () => {
                 <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start gap-4 lg:gap-8 max-w-6xl mx-auto mb-16">
                     {steps.map((step, idx) => (
                         <React.Fragment key={idx}>
-                            <motion.div 
+                            <motion.div
                                 initial={{ opacity: 0, scale: 0.95 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
                                 viewport={{ once: true }}
@@ -40,18 +40,18 @@ export const AboutHowItWorksSection = () => {
                                 <span className="font-sans font-bold text-5xl md:text-6xl text-merkle-purple mb-6 select-none opacity-80">{step.num}</span>
                                 <p className="font-sans text-sm font-bold text-slate-800 leading-relaxed uppercase tracking-wider">{step.text}</p>
                             </motion.div>
-                            
+
                             {/* Arrow for large screens */}
                             {idx < steps.length - 1 && (
                                 <div className="hidden lg:flex items-center justify-center h-[120px] text-slate-300">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
                                 </div>
                             )}
 
                             {/* Arrow for small screens */}
                             {idx < steps.length - 1 && (
                                 <div className="flex lg:hidden items-center justify-center w-full py-4 text-slate-300">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="rotate-90"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="rotate-90"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
                                 </div>
                             )}
                         </React.Fragment>
@@ -60,7 +60,7 @@ export const AboutHowItWorksSection = () => {
 
                 <div className="max-w-2xl mx-auto border-t border-slate-200 pt-10">
                     <p className="font-sans font-bold text-slate-800 text-lg uppercase tracking-wider">
-                        Every step keeps the process clear, compliant, and investor-friendly.
+                        Every step keeps the process clear, compliant,<br /> and investor-friendly.
                     </p>
                 </div>
             </div>

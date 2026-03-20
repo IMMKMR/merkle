@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 export const HeroSection = () => {
   const { scrollY } = useScroll();
@@ -56,12 +57,12 @@ export const HeroSection = () => {
             transition={{ duration: 1, delay: 1 }}
             className="flex flex-col sm:flex-row items-center gap-6 justify-center lg:justify-start"
           >
-            <a href="#why" className="px-8 py-4 bg-merkle-purple text-white font-sans text-sm font-bold uppercase tracking-widest hover:bg-merkle-purple-dark transition-all shadow-xl hover:-translate-y-1 w-full sm:w-auto text-center border border-transparent">
+            <Link to="/insights#philosophy" className="px-8 py-4 bg-merkle-purple text-white font-sans text-sm font-bold uppercase tracking-widest hover:bg-merkle-purple-dark transition-all shadow-xl hover:-translate-y-1 w-full sm:w-auto text-center border border-transparent">
               Understand the Opportunity
-            </a>
-            <a href="#shift" className="px-8 py-4 bg-white/50 backdrop-blur-sm border border-merkle-purple/30 text-merkle-purple font-sans text-sm font-bold uppercase tracking-widest hover:bg-white transition-colors w-full sm:w-auto text-center shadow-lg hover:-translate-y-1">
+            </Link>
+            <Link to="/about#how-it-works" className="px-8 py-4 bg-white/50 backdrop-blur-sm border border-merkle-purple/30 text-merkle-purple font-sans text-sm font-bold uppercase tracking-widest hover:bg-white transition-colors w-full sm:w-auto text-center shadow-lg hover:-translate-y-1">
               See How It Works
-            </a>
+            </Link>
           </motion.div>
         </div>
 
